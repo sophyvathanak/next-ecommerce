@@ -1,5 +1,11 @@
-const ListPage = () => {
-  return <div className="">ListPage</div>;
+import ListPage from "@/components/ListPage";
+
+const Page = () => {
+  return (
+    <div className="">
+      <ListPage />
+    </div>
+  );
 };
 
-export default ListPage;
+export default Page;

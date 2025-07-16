@@ -24,7 +24,7 @@ const Navbar = () => {
             <Image src="/doublen.png" alt="" width={150} height={150} />
             {/* <div className="text-2xl tracking-wide">DOUBLE N</div> */}
           </Link>
-          <div className="hidden xl:flex gap-4">
+          <div className="hidden xl:flex gap-4 text-gray-500">
             <Link href="/">Home</Link>
             <Link href="/">Shop</Link>
             <Link href="/">Deals</Link>
